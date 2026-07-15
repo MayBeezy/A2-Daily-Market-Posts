@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-      - run: pip install -r requirements.txt
+      - run: pip install anthropic requests
       - run: python main.py
         env:
           FACEBOOK_APP_ID: ${{ secrets.FACEBOOK_APP_ID }}
