@@ -23,29 +23,41 @@ print(f"✓ API Key loaded: {bool(API_KEY)}")
 
 # DIVERSE ANGLES - Mix of practical tips and compelling stories
 ANGLES = [
-    # BUYER TIPS
+    # BUYER TIPS & EDUCATION
     "First-time homebuyer mistakes to avoid - what I wish every buyer knew",
     "The importance of getting pre-approved before house hunting",
     "Home inspection red flags that could cost you thousands",
     "Negotiation tactics that actually work in today's Cedar Rapids market",
     "Understanding closing costs - what's normal, what's not",
+    "Credit scores and home buying - what really matters to lenders",
+    "Understanding ARM vs. fixed-rate mortgages - long-term implications",
+    "What today's interest rates mean for your buying power",
+    "Down payment options - more choices than you think",
     
-    # SELLER TIPS
+    # SELLER TIPS & EDUCATION
     "How to price your home in today's market - the data tells the story",
     "Top 5 things that turn buyers away before they even enter",
     "The power of curb appeal - investing in what buyers see first",
     "Disclosure requirements - be honest, protect yourself",
     "When to accept an offer - waiting for perfect can cost you",
+    "Preparing to sell - timeline and checklist",
+    "What happens after the offer - the closing process explained",
     
     # STAGING & PRESENTATION
-    "Staging on a budget - make your home sing without breaking the bank",
+    "Staging on a budget - make your home shine without breaking the bank",
     "Decluttering secrets professionals use to sell homes faster",
     "Lighting, neutrals, and small touches that increase perceived value",
     
-    # FINANCING & MONEY
-    "Credit scores and home buying - what really matters to lenders",
+    # HOME MAINTENANCE & CARE
+    "Home maintenance checklist - what every homeowner should do this season",
+    "Foundation issues, roof age, and those expensive surprises",
+    "Warranties explained - what they really cover",
+    "Avoiding costly repairs - maintenance that pays for itself",
+    
+    # MARKET & TRENDS
+    "Cedar Rapids market trends - spring is already here",
+    "Buyer's market vs. seller's market - what changes and what doesn't",
     "Investment property strategies in Cedar Rapids' growing market",
-    "Understanding ARM vs. fixed-rate mortgages - long-term implications",
     "Tax benefits of homeownership that surprise people every year",
     
     # COMMUNITY & LOCAL
@@ -53,59 +65,28 @@ ANGLES = [
     "Top schools, parks, and why location truly is everything",
     "New development in Cedar Rapids that's changing the real estate game",
     
-    # MAINTENANCE & HOME CARE
-    "Home maintenance checklist - what every homeowner should do this season",
-    "Foundation issues, roof age, and those expensive surprises",
-    "Warranties explained - what they really cover",
-    
-    # SUCCESS STORIES - CREATIVE SOLUTIONS
-    "When credit seemed impossible - the loan officer who believed in my clients",
-    "Bad credit, good heart - how creative financing saved a family's dream",
-    "The power of connecting with the right lender at the right time",
-    
-    # SUCCESS STORIES - GOING ABOVE AND BEYOND
-    "I painted with my sellers to get their home market-ready - and they got full asking price",
+    # SUCCESS STORIES - PROBLEM SOLVING
+    "When credit seemed impossible - creative financing saved a family's dream",
     "Cleaning, repairs, and the extra mile that changes outcomes",
-    "When a realtor becomes part of your family",
+    "Title issues at the 11th hour - how persistence saved the day",
     
-    # SUCCESS STORIES - NAVIGATING LIFE'S HARDEST MOMENTS
+    # SUCCESS STORIES - LIFE'S TOUGH MOMENTS
     "Helping clients through divorce - real estate, emotions, and moving forward",
     "Settling an estate after a parent's passing - with compassion and clarity",
     "Family drama, legal hurdles, and saving deals that seemed impossible",
     
-    # SUCCESS STORIES - MULTI-GENERATIONAL CLIENTS
-    "Selling my clients' first home, helping them buy their dream, and now their kids too",
-    "Three generations, one realtor - the relationships that last 30 years",
+    # SUCCESS STORIES - RELATIONSHIPS & TRUST
+    "Selling my clients' first home, helping them buy their dream, now their kids",
+    "Three generations, one realtor - relationships that last 30 years",
+    "The hard conversation about unanticipated costs - losing a deal, gaining respect",
     
-    # SUCCESS STORIES - 11TH HOUR MIRACLES
-    "Title issues at the 11th hour - how persistence and connections saved the day",
-    "Liens, problems, and one tough client who refused to give up",
-    "When everything falls apart 3 days before closing - and we fixed it",
-    
-    # SUCCESS STORIES - EMOTIONAL WINS
-    "The client tears when signing the purchase agreement - moments that remind me why I do this",
+    # SUCCESS STORIES - JOY & MOMENTS THAT MATTER
+    "The client tears when signing - moments that remind me why I do this",
     "First home, emotional milestone, trusted guide through the biggest decision",
     
-    # SUCCESS STORIES - HONESTY & INTEGRITY
-    "When I had to tell clients the deal wouldn't work - and why they thanked me for honesty",
-    "The hard conversation about unanticipated costs - losing a deal, gaining a client's respect",
-    "Transparency over commission - why integrity matters in Cedar Rapids",
-    
-    # SUCCESS STORIES - RELOCATING & NEW STARTS
-    "Relocating families who chose Cedar Rapids - tours, resources, and making it feel like home",
+    # SUCCESS STORIES - RELOCATION & NEW STARTS
+    "Relocating families to Cedar Rapids - tours, resources, and making it feel like home",
     "Connecting trailing spouses with jobs, schools, and community",
-    "The joy of helping families settle into their new city",
-    
-    # MARKET & TRENDS
-    "What today's interest rates mean for your buying power",
-    "Cedar Rapids market trends - spring is already here",
-    "Buyer's market vs. seller's market - what changes and what doesn't",
-    
-    # SEASONAL ADVICE
-    "Spring selling season - timing your move for maximum impact",
-    "Summer buying - benefits, competition, and strategy",
-    "Fall market secrets that buyers don't always know",
-    "Winter deals - the surprising advantages of off-season buying",
 ]
 
 def generate_post(angle):
